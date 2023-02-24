@@ -1,6 +1,7 @@
 import {CgNotes} from 'react-icons/cg';
 import {AiOutlineCheck} from 'react-icons/ai';
-import  {BsPencil, BsBook} from 'react-icons/bs';
+import  {BsPencil} from 'react-icons/bs';
+import {FaMoneyBill} from 'react-icons/fa'
 import { NavLink } from 'react-router-dom';
 import '../assets/css/hompage.css'
 
@@ -19,9 +20,9 @@ function Homepage(){
                     <i><BsPencil/></i>
                     <h3>Journal</h3>
             </Link>
-            <Link to="/library">
-                    <i><BsBook/></i>
-                    <h3>Library</h3>
+            <Link to="/transaction">
+                    <i><FaMoneyBill/></i>
+                    <h3>Transaction</h3>
             </Link>
         </div>
     )

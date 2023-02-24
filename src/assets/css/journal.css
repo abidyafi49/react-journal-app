@@ -1,0 +1,62 @@
+.journal-container{
+    display: flex;
+    gap: 2rem;
+    flex-wrap: wrap;
+    justify-content: center ;
+}
+
+.critical{
+    background-color: #f45252;
+    border-radius: 15px;
+    padding: 1rem;
+    width: 300px;
+    min-height: 300px;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    white-space: pre-wrap;
+}
+
+.normal{
+    background-color: #55f452;
+    border-radius: 15px;
+    padding: 1rem;
+    width: 300px;
+    color: white;
+    min-height: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    white-space: pre-wrap;
+}
+
+.info{
+    background-color: #7d7d7d;
+    border-radius: 15px;
+    padding: 1rem;
+    width: 300px;
+    color: white;
+    min-height: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    white-space: pre-wrap;
+}
+
+.Journal-footer{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.journal-footer-icon{
+    display: flex;
+    align-items: center;
+    gap: 0.8rem;
+}
+
+.journal-delete-icon{
+    cursor: pointer;
+    color: black;
+}
